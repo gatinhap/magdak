@@ -1,0 +1,30 @@
+@import "../../styles/mediaQueries";
+
+.header-wrapper {
+	position: sticky;
+	z-index: 999;
+	top: 0;
+	width: 100vw;
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+header {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-inline: auto;
+	padding-block: 25px;
+	padding-inline: 20px 100px;
+	max-width: var(--desktop--max-width);
+	min-height: 103px;
+}
+
+//for mobile and tablet
+.for-mobile-and-tablet-portrait({
+	header {
+		padding: 10px var(--xs-padding);
+		min-height: unset;
+	}
+});

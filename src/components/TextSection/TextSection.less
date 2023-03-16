@@ -1,0 +1,29 @@
+@import "../../styles/mediaQueries.less";
+
+.text-section {
+	margin-left: auto;
+	padding-block: 50px;
+	max-width: 80%;
+	text-align: right;
+}
+
+//for tablet
+
+.for-tablet-landscape({
+	.text-section {
+		padding-inline: var(--sm-padding);
+	}
+});
+
+.for-mobile-and-tablet-portrait({
+	.text-section {
+		padding-block: var(--sm-padding);
+		padding-inline: var(--sm-padding);
+	}
+});
+
+.for-mobile-phone-only({
+	.text-section {
+		max-width: 90%;
+	}
+});

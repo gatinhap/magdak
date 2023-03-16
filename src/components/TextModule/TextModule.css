@@ -1,0 +1,12 @@
+/*home page*/
+
+.homepage-text-module {
+	flex-basis: 51%;
+	padding-block: 100px;
+}
+
+/*about me page*/
+
+.about-text-module{
+	max-width: 443px;
+}
