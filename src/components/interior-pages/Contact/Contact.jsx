@@ -25,7 +25,7 @@ const Contact = () => {
                 <InteriorPageTitle>kontakt</InteriorPageTitle>
                 <section className={styles.section}>
                     <ContactCard>
-                        <div className={styles.svg}>
+                        <div className={styles.svgHolder}>
                             <svg xmlns="http://www.w3.org/2000/svg"
                                  viewBox="0 0 384 512">
                                 <path
@@ -38,7 +38,7 @@ const Contact = () => {
                         </address>
                     </ContactCard>
                     <ContactCard>
-                        <div className={styles.svg}>
+                        <div className={styles.svgHolder}>
                             <svg xmlns="http://www.w3.org/2000/svg"
                                  viewBox="0 0 512 512">
                                 <path
@@ -48,7 +48,7 @@ const Contact = () => {
                         <div><a href={'mailto:kuznik.refleksje@gmail.com'}>kuznik.refleksje@gmail.com</a></div>
                     </ContactCard>
                     <ContactCard>
-                        <div className={styles.svg}>
+                        <div className={styles.svgHolder}>
                             <svg xmlns="http://www.w3.org/2000/svg"
                                  viewBox="0 0 512 512">
                                 <path

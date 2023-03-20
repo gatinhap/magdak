@@ -14,6 +14,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 	margin-inline: auto;
 	padding-block: 25px;
 	padding-inline: 20px 100px;
@@ -21,10 +22,28 @@ header {
 	min-height: 103px;
 }
 
+.header-contact-banner {
+	display: flex;
+	grid-gap: 30px;
+	justify-content: flex-end;
+	flex-basis: 100%;
+	margin-inline: auto;
+	padding-inline: var(--xs-padding);
+	max-width: var(--desktop--max-width);
+	width: 100%;
+	font-size: 13px;
+	font-weight: 600;
+	background-color: var(--light-beige);
+}
+
 //for mobile and tablet
 .for-mobile-and-tablet-portrait({
 	header {
 		padding: 10px var(--xs-padding);
 		min-height: unset;
+	}
+	
+	.header-contact-banner {
+		justify-content: space-between;
 	}
 });

@@ -3,10 +3,8 @@
 .homepage-image {
 	flex-basis: 35%;
 	margin-left: auto;
-	width: 414px;
 	max-height: 100%;
-	/*//height: 100%;*/
-}
+ }
 
 .homepage-image img {
 	max-width: 100%;
@@ -18,7 +16,9 @@
 /*about me page*/
 
 .about-image {
-	width: 346px;
+	overflow: hidden;
+	width: 450px;
+	height: 600px;
 }
 
 .about-image img {

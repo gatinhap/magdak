@@ -2,7 +2,7 @@ import Header from "../Header/Header.jsx";
 import Layout from "../Layout/Layout.jsx";
 import TextModule from "../TextModule/TextModule.jsx";
 import ImageModule from "../ImageModule/ImageModule.jsx";
-import magda from "../../assets/magda.jpeg";
+import magda from "../../assets/magda1.jpeg";
 import Footer from "../Footer/Footer.jsx";
 import Logo from "../Logo/Logo.jsx";
 import Navigation from "../Navigation/Navigation.jsx";
