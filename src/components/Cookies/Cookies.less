@@ -1,8 +1,11 @@
+@import "/src/styles/mediaQueries";
+
 #cc-container {
 	position: fixed;
 	z-index: 101;
-	top: var(--xs-padding);
-	left: var(--xs-padding);
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -11,7 +14,6 @@
 	-webkit-transition: opacity .5s ease;
 	transition: opacity .5s ease;
 	padding: var(--xs-padding);
-	max-width: 345px;
 	background-color: var(--light-green);
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 	
@@ -41,3 +43,10 @@
 .cc-text-link:focus {
 	outline: none;
 }
+
+//mobile
+.for-mobile-phone-only({
+	#cc-container {
+		width: 100%;
+	}
+});

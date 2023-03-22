@@ -13,3 +13,11 @@ const ActionButton = ({children, linkTo}) => {
 }
 
 export default ActionButton
+
+//button structure for blog
+// <a
+// class="action-button"
+// href="https://psychoterapia-refleksje.com/#/contact"
+// >
+// Zapraszam do kontaktu
+// </a>
