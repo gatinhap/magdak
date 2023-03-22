@@ -21,6 +21,15 @@ const NavigationLinks = () => {
                 <NavLink to={'/about-me'}>o mnie</NavLink>
             </li>
             <li>
+                <a
+                    href={"https://blog.psychoterapia-refleksje.com/"}
+                    target={'_blank'}
+                    rel={'noopener'}
+                >
+                    blog
+                </a>
+            </li>
+            <li>
                 <NavLink to={'/rodo'}>rodo</NavLink>
             </li>
         </ul>
