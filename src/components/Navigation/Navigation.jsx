@@ -11,6 +11,7 @@ const Navigation = () => {
             <button
                 className={`${styles.navMobileButton} ${isNavExpanded ? styles.expanded : ''}`}
                 onClick={() => setIsNavExpanded(!isNavExpanded)}
+                aria-label={'przycisk nawigacji'}
             >
                 <svg xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 448 512">

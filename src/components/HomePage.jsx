@@ -10,7 +10,7 @@ import SlideshowCaption from "./Slideshow/SlideshowCaption.jsx";
 import TextSection from "./TextSection/TextSection.jsx";
 import TextAndImageSection from "./TextAndImageSection/TextAndImageSection.jsx";
 import ImageModule from "./ImageModule/ImageModule.jsx";
-import plant from '../assets/plant.jpeg'
+import plant from '../assets/plant.webp'
 import TextModule from "./TextModule/TextModule.jsx";
 import Footer from "./Footer/Footer.jsx";
 import {useEffect} from "react";
