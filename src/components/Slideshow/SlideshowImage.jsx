@@ -3,7 +3,13 @@ import './Slideshow.less'
 
 const SlideshowImage = () => {
     return (
-        <div className={'slideshow-image-container'}><img src={img} alt={'zdjęcie gabinetu'} /></div>
+        <div
+            className={'slideshow-image-container'}>
+            <img
+                src={img}
+                alt={'zdjęcie gabinetu'}
+            />
+        </div>
     )
 }
 

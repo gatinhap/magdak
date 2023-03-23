@@ -40,7 +40,6 @@ const AboutMe = () => {
                         <ActionButton linkTo={'/contact'}>Umów spotkanie</ActionButton>
                     </TextModule>
                     <ImageModule
-                        loading="lazy"
                         imageClass={'about-image'}
                         imageSrc={magda}
                         alt={'Magdalena Kuźnik'}
