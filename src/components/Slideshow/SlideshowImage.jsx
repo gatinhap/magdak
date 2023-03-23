@@ -1,4 +1,4 @@
-import img from '/src/assets/hero-img.png';
+import img from '/src/assets/hero-img.webp';
 import './Slideshow.less'
 
 const SlideshowImage = () => {

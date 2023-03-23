@@ -2,14 +2,13 @@ import Header from "../Header/Header.jsx";
 import Layout from "../Layout/Layout.jsx";
 import TextModule from "../TextModule/TextModule.jsx";
 import ImageModule from "../ImageModule/ImageModule.jsx";
-import magda from "../../assets/magda1.jpeg";
+import magda from "../../assets/magda1.webp";
 import Footer from "../Footer/Footer.jsx";
 import Logo from "../Logo/Logo.jsx";
 import Navigation from "../Navigation/Navigation.jsx";
 import './InteriorStyles.less'
 import ActionButton from "../ActionButton/ActionButton.jsx";
 import InteriorPageTitle from "./InteriorPageTitle.jsx";
-import {Link} from "react-router-dom";
 import {useEffect} from "react";
 
 const AboutMe = () => {

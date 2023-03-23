@@ -8,8 +8,8 @@ import Footer from "../../Footer/Footer.jsx";
 import TextModule from "../../TextModule/TextModule.jsx";
 import ActionButton from "../../ActionButton/ActionButton.jsx";
 import ImageModule from "../../ImageModule/ImageModule.jsx";
-import sofa from "../../../assets/sofa.png";
-import fotele from '../../../assets/fotele.png'
+import sofa from "../../../assets/sofa.webp";
+import fotele from '../../../assets/fotele.webp'
 import {useEffect} from "react";
 
 const Cooperate = () => {
