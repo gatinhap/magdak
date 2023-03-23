@@ -7,7 +7,6 @@ import InteriorPageTitle from "../InteriorPageTitle.jsx";
 import Footer from "../../Footer/Footer.jsx";
 import TextModule from "../../TextModule/TextModule.jsx";
 import ActionButton from "../../ActionButton/ActionButton.jsx";
-import {Link} from "react-router-dom";
 import ImageModule from "../../ImageModule/ImageModule.jsx";
 import sofa from "../../../assets/sofa.png";
 import fotele from '../../../assets/fotele.png'
@@ -37,13 +36,11 @@ const Cooperate = () => {
                         <ActionButton linkTo={'/contact'}>Kontakt</ActionButton>
                     </TextModule>
                     <ImageModule
-                        loading="lazy"
                         imageClass={'cooperate-image-1'}
                         imageSrc={sofa}
                         alt={'zdjęcie gabinetu - sofa'}
                     />
                     <ImageModule
-                        loading="lazy"
                         imageClass={'cooperate-image-2'}
                         imageSrc={fotele}
                         alt={'zdjęcie gabinetu - fotele'}

@@ -60,7 +60,6 @@ function HomePage() {
                         imageClass={'homepage-image'}
                         imageSrc={plant}
                         alt={'zdjęcie roślinki'}
-                        loading="lazy"
                     />
                 </TextAndImageSection>
             </Layout>
