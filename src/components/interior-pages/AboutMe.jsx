@@ -42,9 +42,9 @@ const AboutMe = () => {
                         <p><span className={'larger-text'}>W swojej pracy kieruję się kodeksami etycznymi zawodu psychologa i psychoterapeuty&nbsp;</span>
                             (ustanowionymi przez towarzystwa terapeutyczne do których należę). Prowadzoną psychoterapię
                             poddaję superwizji indywidualnej i grupowej z certyfikowanymi superwizorami.
-                            Na co dzień pracuję z <strong>młodzieżą</strong> w Poradni Psychologicznej dla Dzieci i
+                            Na co dzień pracuję z młodzieżą w Poradni Psychologicznej dla Dzieci i
                             Młodzieży w Cieszynie
-                            oraz z <strong>młodzieżą i dorosłymi</strong> w Centrum Rozwoju Osobistego Syntonia w
+                            oraz z młodzieżą i dorosłymi w Centrum Rozwoju Osobistego Syntonia w
                             Katowicach i
                             Mikołowie.</p>
                         <p className={'larger-text'}>Od 2017 roku praktykuję zawód psychologa, od 2019 roku zawód
