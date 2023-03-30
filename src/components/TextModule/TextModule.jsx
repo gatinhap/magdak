@@ -1,4 +1,4 @@
-import './TextModule.css'
+import './TextModule.less'
 
 const TextModule = ({children, textModuleClass}) => {
     return (

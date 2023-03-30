@@ -71,18 +71,30 @@ a {
 	transition: all .3s;
 	color: var(--primary-font-color);
 	text-decoration: none;
-}
-
-a:hover {
-	cursor: pointer;
-}
-
-a {
-	&:hover,
-	&:active,
-	&:focus {
+	
+	&:hover {
+		cursor: pointer;
 		background-color: var(--yellow);
 	}
+}
+
+.read-more {
+	width: fit-content;
+	width: -moz-fit-content;
+	box-shadow: inset 0 -4px var(--yellow);
+	
+	&:hover {
+		background-color: var(--yellow);
+		cursor: pointer;
+	}
+	
+	&.close {
+		margin-inline: auto;
+	}
+}
+
+.underline {
+	box-shadow: inset 0 -4px var(--yellow);
 }
 
 header nav :is(a.active) {
@@ -107,6 +119,10 @@ address {
 	font-size: 1.4em;
 }
 
+.selectAll {
+	user-select: all;
+}
+
 //for mobile
 .for-mobile-phone-only({
 	html {
@@ -116,5 +132,6 @@ address {
 		overflow-x: hidden;
 		max-width: 100vw;
 		font-size: 17px;
+		overflow-wrap: anywhere;
 	}
 });

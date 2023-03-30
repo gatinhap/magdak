@@ -28,11 +28,11 @@ const AboutMe = () => {
                 <section className={'about-section'}>
                     <TextModule textModuleClass={'about-text-module'}>
                         <p><span className={'larger-text'}>Nazywam się Magdalena Kuźnik. Jestem
-                            psychologiem oraz psychoterapeutką w nurcie poznawczo-behawioralnym.</span> Ukończyłam
-                            również
-                            dwuetapowe szkolenie z terapii EMDR. <span className={'larger-text'}>Prowadzę psychoterapię dla młodzieży i dorosłych&nbsp;</span>
+                            psychologiem oraz certyfikowaną psychoterapeutką terapii poznawczo-behawioralnej i terapii EMDR.
+                            Prowadzę psychoterapię dla młodzieży i dorosłych
                             zarówno w formie online jak i stacjonarnie w gabinecie. Udzielam także konsultacji
-                            psychologicznych.
+                            psychologicznych.</span>
+
                         </p>
                         <p> Należę do Towarzystw zrzeszających psychoterapeutów:</p>
                         <ul>
@@ -63,19 +63,19 @@ const AboutMe = () => {
                                 Elżbietanek w Cieszynie.
                             </li>
                         </ul>
-                        <p className={'larger-text'}>Swoją wiedzą dzielę się na konferencjach, m.in.:</p>
-                        <ul>
-                            <li>Jak motywować chorego na cukrzycę. Punkt widzenia psychologa: VI Ogólnopolska
-                                Konferencja
-                                „Cukrzyca. Od teorii do codziennej praktyki”. 1-2.03.2019, Katowice
-                            </li>
-                            <li>Jak zachęcić dzieci i ich opiekunów do prozdrowotnego stylu życia: Wojewódzka
-                                Konferencja
-                                „Czym skorupka za młodu nasiąknie tym na starość trąci… Aktualne polskie i
-                                międzynarodowe
-                                rekomendacje zdrowego odżywiania dzieci”. 6.06.2018, Katowice
-                            </li>
-                        </ul>
+                        {/*<p className={'larger-text'}>Swoją wiedzą dzielę się na konferencjach, m.in.:</p>*/}
+                        {/*<ul>*/}
+                        {/*    <li>Jak motywować chorego na cukrzycę. Punkt widzenia psychologa: VI Ogólnopolska*/}
+                        {/*        Konferencja*/}
+                        {/*        „Cukrzyca. Od teorii do codziennej praktyki”. 1-2.03.2019, Katowice*/}
+                        {/*    </li>*/}
+                        {/*    <li>Jak zachęcić dzieci i ich opiekunów do prozdrowotnego stylu życia: Wojewódzka*/}
+                        {/*        Konferencja*/}
+                        {/*        „Czym skorupka za młodu nasiąknie tym na starość trąci… Aktualne polskie i*/}
+                        {/*        międzynarodowe*/}
+                        {/*        rekomendacje zdrowego odżywiania dzieci”. 6.06.2018, Katowice*/}
+                        {/*    </li>*/}
+                        {/*</ul>*/}
                         <p><span
                             className={'larger-text'}>Biorę udział w dodatkowych szkoleniach, aby pogłębiać wiedzę.&nbsp;</span>Wybrane
                             dotychczasowe
