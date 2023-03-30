@@ -31,7 +31,7 @@ const Cooperate = () => {
                         <p>Zapraszam do kontaktu (preferowany kontakt mailowy)
                             jeśli posiadasz swoją działalność jako psychoterapeuta/psycholog i poszukujesz gabinetu
                             pod
-                            wynajem,
+                            wynajem.
                         </p>
                         <ActionButton linkTo={'/contact'}>Kontakt</ActionButton>
                         <br/>

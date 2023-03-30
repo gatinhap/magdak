@@ -50,8 +50,11 @@ function HomePage() {
                 </Slideshow>
                 <TextSection>
                     <h3>Witaj, nazywam się Magdalena Kuźnik</h3>
-                    <p>Jako certyfikowana psychoterapeutka i psycholog chętnie podejmę <i>refleksje</i> nad Twoimi problemami i
-                        potrzebami. Zapraszam do podjęcia wspólnej pracy nad przezwyciężaniem Twoich trudności.
+                    <p>Jako certyfikowana psychoterapeutka i psycholog chętnie podejmę <i>refleksje</i> nad Twoimi
+                        problemami i
+                        potrzebami. Od 15 roku życia interesuje się zgłębianiem funkcjonowania ludzkiej psychiki -
+                        początkowo hobbistycznie, a na dalszej drodze zawodowo. Zapraszam do podjęcia wspólnej pracy nad
+                        przezwyciężaniem Twoich trudności.
                     </p>
                 </TextSection>
                 <TextAndImageSection>
