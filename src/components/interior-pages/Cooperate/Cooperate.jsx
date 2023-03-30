@@ -28,12 +28,13 @@ const Cooperate = () => {
                 <section className={'cooperate-section'}>
                     <TextModule textModuleClass={'cooperate-text-module'}>
                         <h3>Wynajem gabinetu </h3>
-                        <p>It is a long established fact that a
-                            reader will be distracted by the readable content of a
-                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
-                            more-or-less normal distribution of letters, as opposed to using 'Content here, content
-                            here', making it</p>
+                        <p>Zapraszam do kontaktu (preferowany kontakt mailowy)
+                            jeśli posiadasz swoją działalność jako psychoterapeuta/psycholog i poszukujesz gabinetu
+                            pod
+                            wynajem,
+                        </p>
                         <ActionButton linkTo={'/contact'}>Kontakt</ActionButton>
+                        <br/>
                     </TextModule>
                     <ImageModule
                         imageClass={'cooperate-image-1'}
@@ -45,6 +46,13 @@ const Cooperate = () => {
                         imageSrc={fotele}
                         alt={'zdjęcie gabinetu - fotele'}
                     />
+                    <TextModule textModuleClass={'cooperate-text-module-1'}>
+                        <h3>Dołącz do zespołu</h3>
+                        <p>Jeśli kształcisz się lub pracujesz jako psychoterapeuta (poznawczo-behawioralny,
+                            terapeuta schematów, DBT, ACT, EMDR, terapeuta par i małżeństw, terapeuta rodzin) i chcesz
+                            współtworzyć zespół terapeutyczny Gabinetu Psychoterapii Refleksje (umowa B2B), <a rel={'noopener'} href={'mailto:kuznik.refleksje@gmail.com'} className={'underline'}>napisz do mnie</a>.
+                        </p>
+                    </TextModule>
                 </section>
             </Layout>
             <Footer footerBackgroundColor={'interior-footer-bg-color'}/>
