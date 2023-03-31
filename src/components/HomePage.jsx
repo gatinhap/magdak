@@ -51,7 +51,7 @@ function HomePage() {
                 <TextSection>
                     <h3>Witaj, nazywam się Magdalena Kuźnik</h3>
                     <p>Jako certyfikowana psychoterapeutka i psycholog chętnie podejmę <i>refleksje</i> nad Twoimi problemami i
-                        potrzebami. Zapraszam do podjęcia wspólnej pracy nad przezwyciężaniem Twoich trudności.
+                        potrzebami. Podczas sesji staram się budować atmosferę otwartości i zaufania. Zapraszam do podjęcia wspólnej pracy nad przezwyciężaniem Twoich trudności.
                     </p>
                 </TextSection>
                 <TextAndImageSection>
