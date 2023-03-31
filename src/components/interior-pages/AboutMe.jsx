@@ -28,7 +28,7 @@ const AboutMe = () => {
                 <section className={'about-section'}>
                     <TextModule textModuleClass={'about-text-module'}>
                         <p><span className={'larger-text'}>Nazywam się Magdalena Kuźnik. Jestem
-                            psychologiem oraz certyfikowaną psychoterapeutką terapii poznawczo-behawioralnej i terapii EMDR.
+                            psychologiem oraz certyfikowaną psychoterapeutką terapii poznawczo-behawioralnej (Certyfikat Psychoterapeuty poznawczo-behawioralnego PTTPB nr 1461) i terapii EMDR.
                             Prowadzę psychoterapię dla młodzieży i dorosłych
                             zarówno w formie online jak i stacjonarnie w gabinecie. Udzielam także konsultacji
                             psychologicznych.</span>

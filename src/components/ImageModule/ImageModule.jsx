@@ -1,4 +1,4 @@
-import './ImageModule.css'
+import './ImageModule.less'
 
 const ImageModule = ({imageSrc, alt, imageClass}) => {
     return (
