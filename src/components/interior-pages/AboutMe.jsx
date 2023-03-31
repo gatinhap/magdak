@@ -11,6 +11,8 @@ import ActionButton from "../ActionButton/ActionButton.jsx";
 import InteriorPageTitle from "./InteriorPageTitle.jsx";
 import {useEffect} from "react";
 
+import emdr from '../../assets/emdr.pdf'
+
 const AboutMe = () => {
     useEffect(() => {
         window.scrollTo({top: 0, left: 0, behavior: "smooth"})
@@ -35,7 +37,7 @@ const AboutMe = () => {
                                 className={'underline'}
                                 target={"_blank"}
                                 rel={'noopener'}
-                                href={'../../src/assets/emdr.pdf'}>
+                                href={emdr}>
                                 certyfikat.pdf
                             </a>).
                             Prowadzę psychoterapię dla młodzieży i dorosłych
