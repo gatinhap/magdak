@@ -112,7 +112,7 @@ function HomePage() {
                                                     className={'read-more'}
                                                     href={'https://www.pttpb.pl'}
                                                     target="_blank"
-                                                    rel="noopener"
+                                                    rel="noreferrer"
                                                 >
                                                     https://www.pttpb.pl
                                                 </a>
@@ -178,7 +178,7 @@ function HomePage() {
                                                     className={'read-more'}
                                                     href={'https://emdr.org.pl/o-emdr/'}
                                                     target="_blank"
-                                                    rel="noopener"
+                                                    rel="noreferrer"
                                                 >
                                                     https://emdr.org.pl/o-emdr
                                                 </a>
