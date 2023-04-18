@@ -1,6 +1,4 @@
-import {Navigate, NavLink, Route, Routes} from "react-router-dom";
-import HomePage from "../HomePage.jsx";
-import AboutMe from "../interior-pages/AboutMe.jsx";
+import { NavLink } from "react-router-dom";
 
 import styles from './nav.module.less'
 
@@ -24,7 +22,7 @@ const NavigationLinks = () => {
                 <a
                     href={"https://blog.psychoterapia-refleksje.com/"}
                     target={'_blank'}
-                    rel={'noopener'}
+                    rel={"noopener noreferrer"}
                 >
                     blog
                 </a>

@@ -36,7 +36,7 @@ const AboutMe = () => {
                             <a
                                 className={'underline'}
                                 target={"_blank"}
-                                rel={'noopener'}
+                                rel={'noreferrer'}
                                 href={emdr}>
                                 certyfikat.pdf
                             </a>).

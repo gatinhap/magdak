@@ -27,7 +27,7 @@ const Footer = ({footerBackgroundColor}) => {
                         referrerPolicy="no-referrer-when-downgrade" />
                 </article>
             </footer>
-            <div className={styles.copyright}>made with love by <a href={'https://github.com/gatinhap'} target={'_blank'}>Kotki</a></div>
+            <div className={styles.copyright}>made with love by <a href={'https://github.com/gatinhap'} target={'_blank'} rel="noreferrer">Kotki</a></div>
         </>
     )
 }

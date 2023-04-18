@@ -6,7 +6,7 @@ const Cookies = () => {
 
     useEffect(() => {
         showCookies(true)
-    }, [0])
+    }, [])
 
     return (
         <div
@@ -24,12 +24,12 @@ const Cookies = () => {
                     role={"button"}
                     tabIndex={0}
                     target={"_blank"}
-                    href={"https://policies.google.com/technologies/cookies?hl=pl"}
+                    href={"https://policies.google.com/technologies/cookies?hl=pl"} rel="noreferrer"
                 >
                     Dowiedz się więcej.
                 </a>
             </span>
-            <a
+            <span
                 id={"agree"}
                 aria-label={"dismiss cookie message"}
                 role={"button"}
@@ -37,7 +37,7 @@ const Cookies = () => {
                 onClick={() => showCookies(false)}
             >
                 Zgoda
-            </a>
+            </span>
         </div>
     )
 }
