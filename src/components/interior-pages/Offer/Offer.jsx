@@ -7,12 +7,12 @@ import OfferCard from "./OfferCard.jsx";
 import Footer from "../../Footer/Footer.jsx";
 
 import './Offer.less'
-import {useEffect} from "react";
+import { useEffect } from "react";
 import ActionButton from "../../ActionButton/ActionButton.jsx";
 
 const Offer = () => {
     useEffect(() => {
-        window.scrollTo({top: 0, left: 0, behavior: "smooth"})
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
     }, [])
 
     return (
@@ -30,7 +30,8 @@ const Offer = () => {
                             <path
                                 d="M175.1 72.57C175.1 32.49 208.5 .0003 248.6 .0003C267.8 .0003 286.3 7.646 299.9 21.26L319.1 41.37L340.1 21.26C353.7 7.646 372.2 0 391.4 0C431.5 0 464 32.49 464 72.57V77.4C464 98.79 455.1 119.2 439.5 133.9L336.4 230.5C327.2 239.2 312.8 239.2 303.6 230.5L200.5 133.9C184.9 119.2 175.1 98.79 175.1 77.4V72.57zM39.1 64C62.09 64 79.1 81.91 79.1 104V264.2C79.1 281.2 86.74 297.5 98.74 309.5L149.8 360.6C158.1 368.9 171.1 370.1 180.8 363.7C193.7 355 195.5 336.8 184.6 325.8L137.4 278.6C124.9 266.1 124.9 245.9 137.4 233.4C149.9 220.9 170.1 220.9 182.6 233.4L255.2 305.9C276.2 326.9 288 355.4 288 385.1V464C288 490.5 266.5 512 240 512H173.3C156.3 512 140 505.3 128 493.3L28.12 393.4C10.11 375.4 0 350.1 0 325.5V104C0 81.91 17.91 64 40 64L39.1 64zM640 104V325.5C640 350.1 629.9 375.4 611.9 393.4L512 493.3C499.1 505.3 483.7 512 466.7 512H400C373.5 512 352 490.5 352 464V385.1C352 355.4 363.8 326.9 384.8 305.9L457.4 233.4C469.9 220.9 490.1 220.9 502.6 233.4C515.1 245.9 515.1 266.1 502.6 278.6L455.4 325.8C444.5 336.8 446.3 355 459.2 363.7C468.9 370.1 481.9 368.9 490.2 360.6L541.3 309.5C553.3 297.5 560 281.2 560 264.2V104C560 81.91 577.9 64 600 64C622.1 64 640 81.91 640 104L640 104z"/>
                         </svg>
-                        <h6>Psychoterapia indywidualna młodzieży i dorosłych (CBT, EMDR). <br />Stacjonarnie oraz online.</h6>
+                        <h6>Psychoterapia indywidualna młodzieży i dorosłych (CBT, EMDR). <br/>Stacjonarnie oraz online.
+                        </h6>
                         <div>50 min</div>
                         <div>150 zł</div>
                     </OfferCard>
@@ -67,11 +68,73 @@ const Offer = () => {
                     </div>
                     <div className={'offer-text'}>
                         <p>Dane do przelewu:
-                            <br />
+                            <br/>
                             Gabinet Psychoterapii Magdalena Kuźnik
-                            <br />
+                            <br/>
                             <span className={'selectAll'}>37 1140 2004 0000 3402 8352 9628</span>
                         </p>
+                    </div>
+                    <div className={'offer-regulations'}>
+                        <h3>Zasady ogólne współpracy z Gabinetem Psychoterapii Magdalena Kuźnik „Refleksje”</h3>
+                        <ol>
+                            <li>Terapeuta pracuje zgodnie z kodeksem etycznym, który zobowiązuje do tajemnicy zawodowej.
+                                Terapeuta zwolniony jest z tajemnicy w sytuacji zagrożenia życia/zdrowia Pacjenta lub
+                                innych osób.
+                            </li>
+                            <li>Konsultacja/sesja trwa 50 min.</li>
+                            <li>Koszt konsultacji/sesji według cennika. Cennik może ulec zmianie, o czym Pacjent będzie
+                                informowany z 2-miesięcznym wyprzedzeniem.
+                            </li>
+                            <li>Płatność gotówką odbywa się bezpośrednio po zakończeniu spotkania. Wpłata bezgotówkowa
+                                możliwa jest przelewem na konto w dniu sesji.
+                            </li>
+                            <li>Odwołanie spotkania terapeutycznego zarówno przez Pacjenta jak i Terapeutę może nastąpić
+                                telefonicznie lub mailowo z co najmniej 24-godzinnym wyprzedzeniem przed terminem
+                                umówionego uprzednio spotkania terapeutycznego.
+                            </li>
+                            <li>W przypadku, gdy Pacjent nie powiadomi Terapeuty o odwołaniu spotkania terapeutycznego,
+                                zobowiązany jest do pokrycia 100% opłaty za umówioną sesję, pomimo braku jej realizacji.
+                            </li>
+                            <li>Jeśli Terapeuta odwoła sesję po ustalonym czasie 24 godzin przed sesją, kolejna sesja
+                                jest bezpłatna dla Pacjenta.
+                            </li>
+                            <li>Wyjątkiem od powyższych punktów 5. 6. i 7. są tylko następujące sytuacje:
+                                <ul>
+                                    <li>nagła choroba własna;</li>
+                                    <li>nagła choroba własnego dziecka - tylko w przypadku braku możliwości skorzystania
+                                        z pomocy partnera, członków rodziny, znajomych, opiekunki;
+                                    </li>
+                                    <li>nagły wypadek (np. skręcenie nogi, który ma miejsce w dniu terapii);</li>
+                                    <li>śmierć bliskiej osoby;</li>
+                                    <li>awaria w mieszkaniu lub w domu, która wystąpiła w dniu umówionej wizyty.</li>
+                                </ul>
+                            </li>
+                            <li>W przypadku, gdy Pacjent spóźni się na spotkanie, nie istnieje możliwość przedłużenia
+                                sesji.
+                            </li>
+                            <li>W przypadku spóźnienia Terapeuty, wspólnie ustala się która sesja zostanie przedłużona o
+                                czas spóźnienia.
+                            </li>
+                            <li>Sesja on-line (poprzez komunikator Skype, WhatsApp):
+                                <ul>
+                                    <li>sesje odbywają się po potwierdzeniu opłaty za spotkania;</li>
+                                    <li>w przypadku złej jakości łącza ze strony Pacjenta (uniemożliwiającej prowadzenie
+                                        płynnej konwersacji), spotkanie może zostać wcześniej zakończone za obopólną
+                                        zgodą. W takiej sytuacji opłata pobierana jest jak za całą sesję;
+                                    </li>
+                                    <li>w przypadku złej jakości łącza ze strony Terapeuty ustala się przedłużenie
+                                        wybranej sesji o czas, który nie został zrealizowany.
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>Kontakt telefoniczny lub mailowy między sesjami ustalany jest indywidualnie. Koszt
+                                konsultacji telefonicznej powyżej 15 minut wynosi 30 zł.
+                            </li>
+                            <li>Rozpoczęcie procesu psychoterapii poprzedzone jest 1-4 konsultacjami. Jeśli Pacjent nie
+                                zdecyduje się na podjęcie psychoterapii istnieje możliwość dalszego korzystania z
+                                konsultacji.
+                            </li>
+                        </ol>
                     </div>
                 </section>
             </Layout>

@@ -16,6 +16,11 @@ const Footer = ({footerBackgroundColor}) => {
                         <a href={'mailto:kuznik.refleksje@gmail.com'}>kuznik.refleksje@gmail.com</a> <br/>
                         <a href={'tel:+48 664 185 821'}>+48 664 185 821</a>
                     </address>
+                    <p className={`${styles.smallText} ${styles.footerExtraText}`}>
+                        Ze względu na samodzielne prowadzenie przeze mnie rejestracji pacjentów bardzo proszę o zapis
+                        przez <strong>sms</strong> lub <strong>mail</strong>. Często nie jestem w stanie odebrać telefonu. Zapisy prowadzę na listę
+                        oczekujących ze względu na dużą liczbę pacjentów
+                    </p>
                 </article>
                 <article>
                     <h5>dojazd</h5>

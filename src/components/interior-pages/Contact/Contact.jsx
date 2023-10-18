@@ -1,4 +1,4 @@
-import {useEffect} from "react";
+import { useEffect } from "react";
 
 import ContactCard from "./ContactCard.jsx";
 import Header from "../../Header/Header.jsx";
@@ -12,7 +12,7 @@ import styles from './contact.module.less';
 
 const Contact = () => {
     useEffect(() => {
-        window.scrollTo({top: 0, left: 0, behavior: "smooth"})
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
     }, [])
 
     return (
@@ -24,6 +24,11 @@ const Contact = () => {
             <Layout>
                 <InteriorPageTitle>kontakt</InteriorPageTitle>
                 <section className={styles.section}>
+                    <p className={styles.contactText}>
+                        Ze względu na samodzielne prowadzenie przeze mnie rejestracji pacjentów bardzo proszę o zapis
+                        przez <strong>sms</strong> lub <strong>mail</strong>. Często nie jestem w stanie odebrać telefonu. Zapisy prowadzę na listę
+                        oczekujących ze względu na dużą liczbę pacjentów
+                    </p>
                     <ContactCard>
                         <div className={styles.svgHolder}>
                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -57,10 +62,10 @@ const Contact = () => {
                             43-430 Skoczów
                         </address>
                     </ContactCard>
-                    <p>Wejście przez najbardziej wysunięte w stronę parkingu skrzydło budynku, gabinet nr 15 na 1
+                    <div className={styles.contactText}>Wejście przez najbardziej wysunięte w stronę parkingu skrzydło budynku, gabinet nr 15 na 1
                         piętrze.W
                         budynku znajdują się schody i winda. Budynek dostosowany do osób z niepełnosprawnością
-                        ruchową.</p>
+                        ruchową.</div>
                 </section>
             </Layout>
             <Footer footerBackgroundColor={'interior-footer-bg-color'}/>
