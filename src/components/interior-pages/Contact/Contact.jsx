@@ -25,9 +25,9 @@ const Contact = () => {
                 <InteriorPageTitle>kontakt</InteriorPageTitle>
                 <section className={styles.section}>
                     <p className={styles.contactText}>
-                        Ze względu na samodzielne prowadzenie przeze mnie rejestracji pacjentów bardzo proszę o zapis
-                        przez <strong>sms</strong> lub <strong>mail</strong>. Często nie jestem w stanie odebrać telefonu. Zapisy prowadzę na listę
-                        oczekujących ze względu na dużą liczbę pacjentów
+                        Ze względu na samodzielne prowadzenie przeze mnie rejestracji pacjentów bardzo <strong>proszę o zapis
+                        poprzez wysłanie e-maila</strong>. Zapisy prowadzę na listę oczekujących ze względu na dużą liczbę
+                        pacjentów. Na maile odpowiadam w ciągu kilku dni.
                     </p>
                     <ContactCard>
                         <div className={styles.svgHolder}>
@@ -39,16 +39,16 @@ const Contact = () => {
                         </div>
                         <div><a href={'mailto:kuznik.refleksje@gmail.com'}>kuznik.refleksje@gmail.com</a></div>
                     </ContactCard>
-                    <ContactCard>
-                        <div className={styles.svgHolder}>
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                 viewBox="0 0 512 512">
-                                <path
-                                    d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/>
-                            </svg>
-                        </div>
-                        <div><a href={'tel:+48 664 185 821'}>+48 664 185 821</a></div>
-                    </ContactCard>
+                    {/*<ContactCard>*/}
+                    {/*    <div className={styles.svgHolder}>*/}
+                    {/*        <svg xmlns="http://www.w3.org/2000/svg"*/}
+                    {/*             viewBox="0 0 512 512">*/}
+                    {/*            <path*/}
+                    {/*                d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/>*/}
+                    {/*        </svg>*/}
+                    {/*    </div>*/}
+                    {/*    <div><a href={'tel:+48 664 185 821'}>+48 664 185 821</a></div>*/}
+                    {/*</ContactCard>*/}
                     <ContactCard>
                         <div className={styles.svgHolder}>
                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -62,10 +62,12 @@ const Contact = () => {
                             43-430 Skoczów
                         </address>
                     </ContactCard>
-                    <div className={styles.contactText}>Wejście przez najbardziej wysunięte w stronę parkingu skrzydło budynku, gabinet nr 15 na 1
+                    <div className={styles.contactText}>Wejście przez najbardziej wysunięte w stronę parkingu skrzydło
+                        budynku, gabinet nr 15 na 1
                         piętrze.W
                         budynku znajdują się schody i winda. Budynek dostosowany do osób z niepełnosprawnością
-                        ruchową.</div>
+                        ruchową.
+                    </div>
                 </section>
             </Layout>
             <Footer footerBackgroundColor={'interior-footer-bg-color'}/>
