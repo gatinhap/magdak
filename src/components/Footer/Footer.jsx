@@ -14,12 +14,12 @@ const Footer = ({footerBackgroundColor}) => {
                     <address>
                         ul. Bielska 45A, 43-430 Skoczów <br/>
                         <a href={'mailto:kuznik.refleksje@gmail.com'}>kuznik.refleksje@gmail.com</a> <br/>
-                        <a href={'tel:+48 664 185 821'}>+48 664 185 821</a>
+                        {/*<a href={'tel:+48 664 185 821'}>+48 664 185 821</a>*/}
                     </address>
                     <p className={`${styles.smallText} ${styles.footerExtraText}`}>
-                        Ze względu na samodzielne prowadzenie przeze mnie rejestracji pacjentów bardzo proszę o zapis
-                        przez <strong>sms</strong> lub <strong>mail</strong>. Często nie jestem w stanie odebrać telefonu. Zapisy prowadzę na listę
-                        oczekujących ze względu na dużą liczbę pacjentów
+                        Ze względu na samodzielne prowadzenie przeze mnie rejestracji pacjentów bardzo <strong>proszę o zapis
+                        poprzez wysłanie e-maila</strong>. Zapisy prowadzę na listę oczekujących ze względu na dużą liczbę
+                        pacjentów. Na maile odpowiadam w ciągu kilku dni.
                     </p>
                 </article>
                 <article>
