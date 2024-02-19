@@ -33,7 +33,7 @@ const Offer = () => {
                         <h6>Psychoterapia indywidualna młodzieży i dorosłych (CBT, EMDR). <br/>Stacjonarnie oraz online.
                         </h6>
                         <div>50 min</div>
-                        <div>150-170 zł (w zależności od częstotliwości sesji)</div>
+                        <div>170 zł</div>
                     </OfferCard>
                     <OfferCard>
                         <svg xmlns="http://www.w3.org/2000/svg"
