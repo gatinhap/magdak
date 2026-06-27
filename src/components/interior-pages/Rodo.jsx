@@ -1,106 +1,224 @@
-import Header from "../Header/Header.jsx";
-import Logo from "../Logo/Logo.jsx";
-import Navigation from "../Navigation/Navigation.jsx";
-import Layout from "../Layout/Layout.jsx";
-import InteriorPageTitle from "./InteriorPageTitle.jsx";
-import Footer from "../Footer/Footer.jsx";
-import {useEffect} from "react";
+import Header from '../Header/Header.jsx';
+import Logo from '../Logo/Logo.jsx';
+import Navigation from '../Navigation/Navigation.jsx';
+import Layout from '../Layout/Layout.jsx';
+import InteriorPageTitle from './InteriorPageTitle.jsx';
+import Footer from '../Footer/Footer.jsx';
+import { useEffect } from 'react';
 
 const Rodo = () => {
-    useEffect(() => {
-        window.scrollTo({top: 0, left: 0, behavior: "smooth"})
-    }, [])
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  }, []);
 
-    return (
-        <>
-            <Header>
-                <Logo/>
-                <Navigation/>
-            </Header>
-            <Layout>
-                <InteriorPageTitle>rodo</InteriorPageTitle>
-                <section className={'rodo-section'}>
-                    <h3>Klauzula informacyjna RODO</h3>
-                    <p>Z dniem 25 maja 2018 roku obowiązuje Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679
-                        z dnia 27 kwietnia 2016 roku w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych
-                        osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE
-                        (ogólne rozporządzenie o ochronie danych, dalej: RODO). W związku z powyższym informuję, iż na
-                        podstawie art. 13 RODO od dnia 25 maja 2018 roku będą Pani/Panu przysługiwały określone poniżej
-                        prawa związane z przetwarzaniem Pani/Pana danych osobowych:
-                    </p>
-                    <ol>
-                        <li>
-                            Administratorem danych osobowych jest firma Gabinet Psychoterapii Magdalena Kuźnik (zwana
-                            dalej: Gabinetem psychoterapii) NIP: 9542824268. We wszelkich sprawach związanych z
-                            przetwarzaniem Pani/Pana danych osobowych można skontaktować się z Administratorem pod
-                            adresem mailowym: kuznik.refleksje@gmail.com lub pod numerem telefonu 664 185 821. Nie
-                            wyznaczono inspektora ochrony danych.
-                        </li>
-                        <li>
-                            Dane osobowe klienta są pozyskiwane bezpośrednio od klienta podczas wizyt, rozmów
-                            telefonicznych, wiadomości tekstowych i elektronicznych związanych z wykonywaniem usług
-                            psychologiczno-psychoterapeutycznych na <strong>podstawie pisemnej zgody</strong>, która
-                            może zostać odwołana
-                            w dowolnym czasie.
-                        </li>
-                        <li>
-                            Podanie Pani/Pana danych osobowych jest dobrowolne, ale niezbędne do zawarcia i realizacji
-                            umowy.
-                        </li>
-                        <li>
-                            W celu świadczenia usług psychologiczno-psychoterapeutycznych mogą być potrzebne następujące
-                            dane klienta: imię i nazwisko, data urodzenia, adres zamieszkania, stopień pokrewieństwa (w
-                            przypadku osób zgłaszanych przez członka rodziny), numer telefonu, adres e-mail. Podczas
-                            świadczenia usług psychologiczno-psychoterapeutycznych może być utworzona dokumentacja, w
-                            której są zawarte niezbędne informacje dotyczące procesu psychoterapii, w szczególności
-                            informacje o stanie zdrowia, wyniki badań oraz informacje o nałogach i życiu osobistym.
-                            Informacje te warunkują postawienie właściwej diagnozy, jak i zastosowanie w sposób właściwy
-                            procesu psychoterapii.
-                        </li>
-                        <li>
-                            <p>Gabinet psychoterapii przetwarza dane osobowe w celu:</p>
-                            <ul>
-                                <li>świadczenia usług psychologiczno-psychoterapeutycznych,</li>
-                                <li>skontaktowania się z klientem pod podanym przez niego numerem telefonu lub adresem
-                                    mailowym w celu dokonania ustaleń związanych z terminami wizyt,
-                                </li>
-                                <li>
-                                    prowadzenia ksiąg rachunkowych, co związane jest z przetwarzaniem danych osobowych
-                                    klienta w przypadku wystawiania rachunków/faktur i regulowania należności za
-                                    wykonane usługi.
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            W związku z przetwarzaniem danych w celach wskazanych w punkcie 5. dane osobowe klienta nie
-                            będą udostępniane innym odbiorcom lub kategoriom odbiorców danych osobowych. Udostępnianie
-                            danych osobowych może nastąpić wyłącznie w uzasadnionych przypadkach i na podstawie
-                            odpowiednich przepisów prawa (mogą to być podmioty świadczące dla Administratora usługi
-                            księgowo-podatkowe, teleinformatyczne, prawne).
-                        </li>
-                        <li>
-                            Dane osobowe nie są przetwarzane w sposób zautomatyzowany. Państwa dane nie będą
-                            przekazywane poza teren Europejskiego Obszaru Gospodarczego.
-                        </li>
-                        <li>
-                            Wszelkie dane osobowe zgromadzone w ramach świadczenia usług
-                            psychologiczno-psychoterapeutycznych przetwarzane są przez 5 lat (liczone od ostatniego dnia
-                            roku, w którym nastąpiła ostatnia wizyta) chyba, że obowiązujące prawo stanowi inaczej (np.
-                            w kwestii dokumentacji księgowej). Po upływie tego okresu dane klienta są usuwane lub
-                            anonimizowane.
-                        </li>
-                        <li>
-                            W związku z przetwarzaniem przez Gabinet psychoterapii danych osobowych, klientowi
-                            przysługuje prawo do dostępu do treści udostępnionych danych i ich poprawiania,
-                            sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych, wniesienia
-                            sprzeciwu, cofnięcia zgody na przetwarzanie.
-                        </li>
-                    </ol>
-                </section>
-            </Layout>
-            <Footer footerBackgroundColor={'interior-footer-bg-color'}/>
-        </>
-    )
-}
+  return (
+    <>
+      <Header>
+        <Logo />
+        <Navigation />
+      </Header>
+      <Layout>
+        <InteriorPageTitle>rodo</InteriorPageTitle>
+        <section className={'rodo-section'}>
+          <h3>
+            KLAUZULA INFORMACYJNA DOTYCZĄCA PRZETWARZANIA DANYCH OSOBOWYCH
+          </h3>
 
-export default Rodo
+          <p>
+            <strong>
+              Zgodnie z art. 13 Rozporządzenia Parlamentu Europejskiego i Rady
+              (UE) 2016/679 z dnia 27 kwietnia 2016 r. (RODO) informuję, że:
+            </strong>
+          </p>
+
+          <ol>
+            <li>
+              <p>
+                <strong>Administrator danych</strong>
+              </p>
+              Administratorem Pani/Pana danych osobowych jest Magdalena Kuźnik
+              prowadząca działalność gospodarczą pod firmą Gabinet Psychoterapii
+              Magdalena Kuźnik, NIP: 9542824268, z siedzibą pod adresem Bielska
+              45A, 43-430 Skoczów. Kontakt z Administratorem jest możliwy pod
+              adresem e-mail: kuznik.refleksje@gmail.com lub numerem telefonu:
+              664 185 821. Administrator nie wyznaczył Inspektora Ochrony
+              Danych.
+            </li>
+
+            <li>
+              <p>
+                <strong>Zakres przetwarzanych danych</strong>
+              </p>
+              Przetwarzane mogą być następujące dane osobowe:
+              <ul>
+                <li>imię i nazwisko,</li>
+                <li>data urodzenia,</li>
+                <li>adres zamieszkania,</li>
+                <li>numer telefonu,</li>
+                <li>adres e-mail,</li>
+                <li>
+                  dane dotyczące rodziców lub opiekunów prawnych (w przypadku
+                  osób małoletnich),
+                </li>
+                <li>
+                  inne dane przekazane dobrowolnie w związku ze świadczeniem
+                  usług psychologicznych lub psychoterapeutycznych.
+                </li>
+              </ul>
+              <br />W toku konsultacji psychologicznych lub psychoterapii mogą
+              być przetwarzane również szczególne kategorie danych osobowych, w
+              szczególności informacje dotyczące zdrowia psychicznego i
+              fizycznego, sytuacji rodzinnej, życiowej oraz innych okoliczności
+              niezbędnych do udzielenia profesjonalnej pomocy psychologicznej.
+            </li>
+
+            <li>
+              <p>
+                <strong>Cele i podstawy przetwarzania danych</strong>
+              </p>
+              Dane osobowe są przetwarzane w celu:
+              <ol type="a">
+                <li>
+                  świadczenia usług psychologicznych i psychoterapeutycznych
+                  oraz prowadzenia dokumentacji związanej z udzielaną pomocą,
+                </li>
+                <li>
+                  kontaktu z klientem w sprawach związanych z organizacją wizyt,
+                </li>
+                <li>
+                  realizacji obowiązków wynikających z przepisów prawa, w
+                  szczególności podatkowych i rachunkowych,
+                </li>
+                <li>dochodzenia lub obrony przed ewentualnymi roszczeniami.</li>
+              </ol>
+              Podstawą prawną przetwarzania danych jest:
+              <ul>
+                <li>
+                  art. 6 ust. 1 lit. b RODO – podjęcie działań przed zawarciem
+                  umowy oraz wykonanie umowy,
+                </li>
+                <li>
+                  art. 6 ust. 1 lit. c RODO – wypełnienie obowiązków prawnych
+                  ciążących na Administratorze,
+                </li>
+                <li>
+                  art. 6 ust. 1 lit. f RODO – prawnie uzasadniony interes
+                  Administratora, polegający m.in. na organizacji pracy gabinetu
+                  i ochronie przed roszczeniami,
+                </li>
+                <li>
+                  art. 9 ust. 2 lit. h RODO – świadczenie pomocy psychologicznej
+                  i psychoterapeutycznej oraz prowadzenie związanej z nią
+                  dokumentacji.
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <p>
+                <strong>Odbiorcy danych</strong>
+              </p>
+              Dane osobowe mogą być przekazywane podmiotom współpracującym z
+              Administratorem wyłącznie w zakresie niezbędnym do realizacji
+              wskazanych celów, w szczególności:
+              <ul>
+                <li>podmiotom świadczącym usługi księgowe,</li>
+                <li>
+                  podmiotom świadczącym usługi informatyczne i
+                  teleinformatyczne,
+                </li>
+                <li>kancelariom prawnym,</li>
+                <li>
+                  podmiotom zapewniającym obsługę poczty elektronicznej,
+                  hostingu lub przechowywania danych.
+                </li>
+              </ul>
+              Dane mogą być również udostępniane podmiotom uprawnionym na
+              podstawie obowiązujących przepisów prawa.
+            </li>
+
+            <li>
+              <p>
+                <strong>
+                  Przekazywanie danych poza Europejski Obszar Gospodarczy
+                </strong>
+              </p>
+              Co do zasady dane osobowe nie są przekazywane poza Europejski
+              Obszar Gospodarczy. Jeżeli Administrator korzysta z usług
+              dostawców mających siedzibę poza EOG, dane będą przetwarzane z
+              zachowaniem odpowiednich zabezpieczeń wymaganych przez przepisy
+              RODO.
+            </li>
+
+            <li>
+              <p>
+                <strong>Okres przechowywania danych</strong>
+              </p>
+              <p>
+                Dane osobowe będą przechowywane przez okres niezbędny do
+                realizacji celu, w jakim zostały zebrane, a następnie przez
+                okres wymagany przez obowiązujące przepisy prawa lub niezbędny
+                do zabezpieczenia ewentualnych roszczeń.
+              </p>
+
+              <p>
+                Dokumentacja związana ze świadczeniem usług psychologicznych i
+                psychoterapeutycznych przechowywana jest przez okres 5 lat od
+                końca roku kalendarzowego, w którym odbyła się ostatnia
+                konsultacja lub sesja, chyba że przepisy prawa wymagają
+                dłuższego okresu przechowywania.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <strong>Prawa osoby, której dane dotyczą</strong>
+              </p>
+              Osobie, której dane dotyczą, przysługuje prawo do:
+              <ul>
+                <li>dostępu do danych,</li>
+                <li>sprostowania danych,</li>
+                <li>usunięcia danych (w przypadkach przewidzianych prawem),</li>
+                <li>ograniczenia przetwarzania,</li>
+                <li>przenoszenia danych,</li>
+                <li>
+                  wniesienia sprzeciwu wobec przetwarzania danych w przypadkach
+                  przewidzianych prawem.
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <p>
+                <strong>Prawo wniesienia skargi</strong>
+              </p>
+              Osobie, której dane dotyczą, przysługuje prawo wniesienia skargi
+              do Prezesa Urzędu Ochrony Danych Osobowych, jeśli uzna, że
+              przetwarzanie danych osobowych narusza przepisy RODO.
+            </li>
+
+            <li>
+              <p>
+                <strong>Dobrowolność podania danych</strong>
+              </p>
+              Podanie danych osobowych jest dobrowolne, jednak niezbędne do
+              nawiązania współpracy oraz świadczenia usług psychologicznych i
+              psychoterapeutycznych.
+            </li>
+
+            <li>
+              <p>
+                <strong>Zautomatyzowane podejmowanie decyzji</strong>
+              </p>
+              Dane osobowe nie są wykorzystywane do zautomatyzowanego
+              podejmowania decyzji, w tym profilowania.
+            </li>
+          </ol>
+        </section>
+      </Layout>
+      <Footer footerBackgroundColor={'interior-footer-bg-color'} />
+    </>
+  );
+};
+
+export default Rodo;
