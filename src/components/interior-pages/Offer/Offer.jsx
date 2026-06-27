@@ -60,100 +60,141 @@ const Offer = () => {
             </p>
           </div>
           <div className={'offer-regulations'}>
-            <h3>
-              Regulamin współpracy z Gabinetem Psychoterapii Magdalena Kuźnik
-              „Refleksje”
-            </h3>
+            <h3>Zasady współpracy: Gabinet Psychoterapii Magdalena Kuźnik</h3>
+
+            <h4>
+              Niniejszy dokument określa podstawowe zasady współpracy
+              obowiązujące podczas konsultacji psychologicznych oraz
+              psychoterapii prowadzonej w gabinecie.
+            </h4>
             <ol>
               <li>
-                Terapeuta pracuje zgodnie z kodeksem etycznym, który zobowiązuje
-                do tajemnicy zawodowej. Terapeuta zwolniony jest z tajemnicy w
-                sytuacji zagrożenia życia/zdrowia Pacjenta lub innych osób.
+                <p>
+                  <strong>Poufność</strong>
+                </p>
+                Wszystkie informacje przekazywane podczas spotkań objęte są
+                tajemnicą zawodową i zasadą poufności. Poufność może zostać
+                ograniczona wyłącznie w sytuacjach przewidzianych przepisami
+                prawa lub zasadami etyki zawodowej, w szczególności gdy istnieje
+                zagrożenie życia lub zdrowia klienta bądź innych osób. W
+                przypadku osób małoletnich rodzice lub opiekunowie prawni mogą
+                otrzymywać informacje dotyczące przebiegu współpracy w zakresie
+                niezbędnym do zapewnienia bezpieczeństwa i realizacji procesu
+                pomocy psychologicznej, z poszanowaniem prawa małoletniego do
+                prywatności.
               </li>
-              <li>Konsultacja/sesja trwa 50 min.</li>
+
               <li>
-                Koszt konsultacji/sesji według cennika. Cennik może ulec
-                zmianie, o czym Pacjent będzie informowany z 2-miesięcznym
-                wyprzedzeniem.
+                <p>
+                  <strong>Czas trwania spotkania</strong>
+                </p>
+                Jedno spotkanie trwa 50 minut.
               </li>
+
               <li>
+                <p>
+                  <strong>Koszt wizyty</strong>
+                </p>
+                Koszt jednej wizyty wynosi 180 zł.
+                <br />
+                Gabinet zastrzega sobie możliwość zmiany ceny usług. O
+                planowanej zmianie klient zostanie poinformowany z co najmniej
+                dwumiesięcznym wyprzedzeniem.
+              </li>
+
+              <li>
+                <p>
+                  <strong>Płatności</strong>
+                </p>
                 Płatność gotówką odbywa się bezpośrednio po zakończeniu
                 spotkania. Wpłata bezgotówkowa możliwa jest przelewem na konto
-                lub blik na telefon w dniu sesji.
+                najpóźniej w dniu sesji.
+                <p>Dane do przelewu:</p>
+                <p>Gabinet Psychoterapii Magdalena Kuźnik</p>
+                <p>37 1140 2004 0000 3402 8352 9628</p>
+                <p>Dane do przelewu na telefon: 664185821</p>
               </li>
+
               <li>
-                Odwołanie spotkania terapeutycznego zarówno przez Pacjenta jak i
-                Terapeutę może nastąpić telefonicznie lub mailowo z co najmniej
-                24-godzinnym wyprzedzeniem przed terminem umówionego uprzednio
-                spotkania terapeutycznego.
+                <p>
+                  <strong>Odwoływanie wizyt przez klienta</strong>
+                </p>
+                Klient może bezpłatnie odwołać lub przełożyć wizytę najpóźniej
+                48 godzin przed umówionym terminem. Wizyty odwołane później niż
+                48 godzin przed terminem są płatne. W wyjątkowych sytuacjach
+                losowych lub zdrowotnych terapeuta może odstąpić od pobrania
+                opłaty według własnej oceny okoliczności.
               </li>
+
               <li>
-                W przypadku, gdy Pacjent nie powiadomi Terapeuty o odwołaniu
-                spotkania terapeutycznego, zobowiązany jest do pokrycia 100%
-                opłaty za umówioną sesję, pomimo braku jej realizacji.
+                <p>
+                  <strong>Odwoływanie wizyt przez terapeutę</strong>
+                </p>
+                Terapeuta ma prawo odwołać lub przełożyć wizytę z ważnych
+                przyczyn losowych, zdrowotnych, rodzinnych lub innych
+                okoliczności uniemożliwiających przeprowadzenie spotkania. O
+                zmianie terminu klient zostanie poinformowany tak szybko, jak
+                będzie to możliwe. W takim przypadku strony ustalają nowy termin
+                spotkania.
               </li>
+
               <li>
-                Jeśli Terapeuta odwoła sesję po ustalonym czasie 24 godzin przed
-                sesją, kolejna sesja jest bezpłatna dla Pacjenta.
+                <p>
+                  <strong>Spóźnienia</strong>
+                </p>
+                W przypadku spóźnienia klienta spotkanie kończy się o ustalonej
+                godzinie, a jego koszt pozostaje bez zmian. Jeżeli terapeuta
+                spóźni się na wizytę, czas spotkania zostanie odpowiednio
+                wydłużony, jeśli będzie to organizacyjnie możliwe. W przeciwnym
+                razie wspólnie ustala się która sesja zostanie przedłużona o
+                czas spóźnienia.
               </li>
+
               <li>
-                Wyjątkiem od powyższych punktów 5. 6. i 7. są tylko następujące
-                sytuacje:
-                <ul>
-                  <li>nagła choroba własna;</li>
+                <p>
+                  <strong>Sesja on-line/teleporady</strong>
+                </p>
+                <ol type="a">
                   <li>
-                    nagła choroba własnego dziecka - tylko w przypadku braku
-                    możliwości skorzystania z pomocy partnera, członków rodziny,
-                    znajomych, opiekunki;
+                    Sesje odbywają się po potwierdzeniu opłaty za spotkania;
                   </li>
                   <li>
-                    nagły wypadek (np. skręcenie nogi, wypadek samochodowy,
-                    który ma miejsce w dniu terapii);
-                  </li>
-                  <li>śmierć bliskiej osoby;</li>
-                  <li>
-                    awaria w mieszkaniu lub w domu, która wystąpiła w dniu
-                    umówionej wizyty.
-                  </li>
-                </ul>
-              </li>
-              <li>
-                W przypadku, gdy Pacjent spóźni się na spotkanie, nie istnieje
-                możliwość przedłużenia sesji.
-              </li>
-              <li>
-                W przypadku spóźnienia Terapeuty, wspólnie ustala się która
-                sesja zostanie przedłużona o czas spóźnienia.
-              </li>
-              <li>
-                Sesja on-line (poprzez komunikator Skype, WhatsApp):
-                <ul>
-                  <li>
-                    sesje odbywają się po potwierdzeniu opłaty za spotkania;
-                  </li>
-                  <li>
-                    w przypadku złej jakości łącza ze strony Pacjenta
+                    w przypadku złej jakości łącza ze strony klienta
                     (uniemożliwiającej prowadzenie płynnej konwersacji),
                     spotkanie może zostać wcześniej zakończone za obopólną
                     zgodą. W takiej sytuacji opłata pobierana jest jak za całą
                     sesję;
                   </li>
                   <li>
-                    w przypadku złej jakości łącza ze strony Terapeuty ustala
+                    w przypadku złej jakości łącza ze strony terapeuty ustala
                     się przedłużenie wybranej sesji o czas, który nie został
                     zrealizowany.
                   </li>
+                </ol>
+                Konsultacje telefoniczne lub mailowe między sesjami ustalane są
+                indywidualnie. Koszt konsultacji telefonicznej zgodnie z
+                aktualnym cennikiem.
+              </li>
+
+              <li>
+                <p>
+                  <strong>Charakter współpracy</strong>
+                </p>
+                Pierwsze spotkania mają charakter konsultacyjny i służą
+                rozpoznaniu zgłaszanych trudności, potrzeb klienta oraz
+                ustaleniu najbardziej odpowiedniej formy pomocy.
+                <p>Po kilku konsultacjach możliwe jest:</p>
+                <ul>
+                  <li>rozpoczęcie psychoterapii,</li>
+                  <li>
+                    kontynuowanie współpracy w formule konsultacji
+                    psychologicznych,
+                  </li>
+                  <li>
+                    uzyskanie rekomendacji dotyczących innej formy wsparcia lub
+                    specjalistycznej pomocy.
+                  </li>
                 </ul>
-              </li>
-              <li>
-                Ewentualne konsultacje telefoniczne między sesjami ustalane są
-                indywidualnie.
-              </li>
-              <li>
-                Rozpoczęcie procesu psychoterapii poprzedzone jest 1-4
-                konsultacjami. Jeśli Pacjent nie zdecyduje się na podjęcie
-                psychoterapii istnieje możliwość dalszego korzystania z
-                konsultacji.
               </li>
             </ol>
           </div>
