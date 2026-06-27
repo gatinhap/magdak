@@ -89,7 +89,7 @@ const Contact = () => {
           </ContactCard> */}
           <div className={styles.contactText}>
             Gabinet w Skoczowie mieści się w budynku Poradni Rodzinnej na 1
-            piętrze (gabinet nr 15). Wejście przez najbardziej wysunięte w
+            piętrze (gabinet nr 19). Wejście przez najbardziej wysunięte w
             stronę parkingu skrzydło budynku. W środku znajdują się schody i
             winda. Ośrodek przystosowany dla osób z niepełnosprawnością ruchową.
           </div>
