@@ -58,12 +58,6 @@ const Contact = () => {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
-            <p className={styles.secondAddress}>
-              Filia gabinetu:
-              <br /> ul. Panewnicka 31
-              <br />
-              40-730 Katowice{' '}
-            </p>
           </ContactCard>
           <ContactCard>
             <div className={styles.svgHolder}>
