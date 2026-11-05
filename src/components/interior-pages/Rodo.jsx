@@ -40,9 +40,9 @@ const Rodo = () => {
               prowadząca działalność gospodarczą pod firmą Gabinet Psychoterapii
               Magdalena Kuźnik, NIP: 9542824268, z siedzibą pod adresem Bielska
               45A, 43-430 Skoczów. Kontakt z Administratorem jest możliwy pod
-              adresem e-mail: kuznik.refleksje@gmail.com lub numerem telefonu:
-              664 185 821. Administrator nie wyznaczył Inspektora Ochrony
-              Danych.
+              adresem e-mail: kontakt@psychoterapia-refleksje.com lub numerem
+              telefonu: 664 185 821. Administrator nie wyznaczył Inspektora
+              Ochrony Danych.
             </li>
 
             <li>
