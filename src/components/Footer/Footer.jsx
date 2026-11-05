@@ -13,8 +13,8 @@ const Footer = ({ footerBackgroundColor }) => {
           <h5>kontakt</h5>
           <address>
             ul. Bielska 45A, 43-430 Skoczów <br />
-            <a href={'mailto:kuznik.refleksje@gmail.com'}>
-              kuznik.refleksje@gmail.com
+            <a href={'mailto:kontakt@psychoterapia-refleksje.com'}>
+              kontakt@psychoterapia-refleksje.com
             </a>{' '}
             <br />
             {/* <a href={'tel:+48 664 185 821'}>+48 664 185 821</a> */}

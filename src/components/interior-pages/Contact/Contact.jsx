@@ -66,8 +66,8 @@ const Contact = () => {
               </svg>
             </div>
             <div>
-              <a href={'mailto:kuznik.refleksje@gmail.com'}>
-                kuznik.refleksje@gmail.com
+              <a href={'mailto:kontakt@psychoterapia-refleksje.com'}>
+                kontakt@psychoterapia-refleksje.com
               </a>
             </div>
           </ContactCard>
